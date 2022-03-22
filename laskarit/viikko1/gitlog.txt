@@ -1,0 +1,113 @@
+commit 0a1b317c3c999944343ec45a6981ff15cf2826b4
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:53:30 2022 +0200
+
+    poistettu file1, nimetty uusiksi file2
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 81abc91f8c34216efaa6860bc71925fc8dc080ae
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:48:54 2022 +0200
+
+    lisätty tiedostoja/ sekä file1, file2, file3
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5bf201f7d06c8e42f50a1ade467227065de1d4fc
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:39:07 2022 +0200
+
+    muokkauksia kahteen tiedostoon
+
+ eka.txt    | 3 ++-
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 0d33160f94ad258874fe39340766d4c61a1eb44e
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:36:02 2022 +0200
+
+    vaihdettu nimeä
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 52e5890ffda0af5a87358c55d0e8db7ff7c21e03
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:33:54 2022 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 0a74a85fbdc7b9feba4c27c70fae1375d6ea5ba4
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:31:54 2022 +0200
+
+    tiedosto.txt poistin ja lisäsin tekstiä
+
+ tiedosto.txt | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit ba4ad42fa011c089b81e33440e9987e506ed7b21
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:30:15 2022 +0200
+
+    lisätty tekstiä tiedostoon tiedosto.txt
+
+ tiedosto.txt | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+commit 8942a4c10f10f222b6f296fea1559b72c5881e4b
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:24:12 2022 +0200
+
+    lisätty kansio ja jokin.txt
+
+ stuff/jokin.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 532264bb1535a36ac42a447ec012fe529f199d89
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:22:43 2022 +0200
+
+    kaksi muutosta
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 477dd325c77f4fed364eb5a5fd086c542130eb4e
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:21:31 2022 +0200
+
+    lisätty kolmas.txt
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 04f6d954c405791d9278b3d8418b8a3bad0fcbc7
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Tue Mar 22 19:19:20 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 27d7b86d0195c8eb91e61fc8cf0eabdf5b827705
+Author: Markus Federley <59370056+federma@users.noreply.github.com>
+Date:   Mon Mar 21 21:38:36 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
