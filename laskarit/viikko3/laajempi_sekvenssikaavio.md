@@ -12,7 +12,7 @@ sequenceDiagram
     lippu_luukku->>kallen_kortti: Matkakortti("Kalle")
     lippu_luukku-->>main: kallen_kortti
     main->>rautatietori: lataa_arvoa(kallen_kortti, 3)
-    rautatietori-->kallen_kortti: kasvata_arvoa(3)
+    rautatietori->>kallen_kortti: kasvata_arvoa(3)
     main->>ratikka6: osta_lippu(kallen_kortti, 0)
     ratikka6->>kallen_kortti: arvo < 1.5
     kallen_kortti-->>ratikka6: false
