@@ -14,17 +14,10 @@
 
 [tuntikirjanpito.md](https://github.com/federma/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-## Alaotsikko 1
+### Viikko 3
 
-Ohjelmistotekniikan alustava README.md. Sisältää **lihavoitua tekstiä** ja **kursivoitua tekstiä** sekä ***yhtä aikaa lihavoitua ja kursivoitua tekstiä***.
+[monopoli_luokkakaavio.md](https://github.com/federma/ot-harjoitustyo/blob/master/laskarit/viikko3/monopoli_luokkakaavio.md)
 
+[sekvenssikaavio.md](https://github.com/federma/ot-harjoitustyo/blob/master/laskarit/viikko3/sekvenssikaavio.md)
 
-## Alaotsikko 2
-
-Tämä ei ole lainaus
-
-> Mutta tämä on
-
-Ja tässä pitäisi olla `koodin pätkä`
-
-## Paikallisesti muutettu alaotsikko
+[laajempi_sekvenssikaavio.md](https://github.com/federma/ot-harjoitustyo/blob/master/laskarit/viikko3/laajempi_sekvenssikaavio.md)
