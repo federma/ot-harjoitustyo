@@ -2,27 +2,33 @@ Monopolia pelataan k채ytt채en kahta noppaa. Pelaajia on v채hint채채n 2 ja enint�
 
 ```mermaid
  classDiagram
-      Noppa "*" --> "1" Pelilauta
-      Ruutu "*" --> "1" Pelilauta
-      Pelaaja "*" --> "1" Pelinappula
-      Pelinappula "*" --> "1" Ruutu
-      class Pelilauta{
-          id
-          pelaajat
-          ruudut
-      }
-      class Noppa{
-          id
-      }
-      class Ruutu{
-          id
-          seuraaja
-      }
-      class Pelaaja{
-          nimi
-          pelinappula
-      }
-      class Pelinappula{
-          id
-      }
+    Monopoli "1" -- "1" Pelitauta
+    Noppa "2" -- "1" Pelilauta
+    Ruutu "40" -- "1" Pelilauta
+    Ruutu "1" --> "1" Ruutu
+    Pelaaja "2..8" -- "1" Monopoli
+    Pelaaja "1" -- "1" Pelinappula
+    Pelinappula "1" --> "1" Ruutu
+    class Monopoli {
+        id
+        pelaajat
+    }
+    class Pelilauta{
+        id
+        ruudut
+    }
+    class Noppa{
+        id
+    }
+    class Ruutu{
+        id
+        seuraaja
+    }
+    class Pelaaja{
+        nimi
+        pelinappula
+    }
+    class Pelinappula{
+        id
+    }
 ```
