@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     main->>machine: Machine()
     machine->>fueltank: Fueltank()
@@ -15,3 +16,4 @@ sequenceDiagram
     machine->>engine: use_energy()
     engine->>fueltank: consume(10)
     engine-->machine: drive completed
+```
