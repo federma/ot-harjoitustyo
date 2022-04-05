@@ -2,7 +2,7 @@ Monopolia pelataan käyttäen kahta noppaa. Pelaajia on vähintään 2 ja enint�
 
 ```mermaid
  classDiagram
-    Monopoli "1" -- "1" Pelitauta
+    Monopoli "1" -- "1" Pelilauta
     Noppa "2" -- "1" Pelilauta
     Ruutu "40" -- "1" Pelilauta
     Ruutu "1" --> "1" Ruutu
